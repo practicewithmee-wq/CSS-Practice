@@ -9,7 +9,7 @@ CSS is the language we use to style a Web page.
 **Why Use CSS ?**   
 CSS is used to define styles for your web pages, including the design, layout and variations in display for different devices and screen sizes.
 
-## CSS Selectors
+# CSS Selectors
 CSS selectors are used to "find" (or select) the HTML elements you want to style.
 - **Simple selectors** (select elements based on name, id, class)
 - **Combinator selectors** (select elements based on a specific relationship between them)
@@ -26,7 +26,7 @@ There are three ways of inserting a style sheet:
 2. Internal CSS - use the `<style>` element in the head section
 3. Inline CSS - use the style attribute on HTML elements
 
-## CSS Comments
+# CSS Comments
 Comments are used to explain the CSS code, and may help when you edit the source code at a later date. 
 
 Comments are also used to temporarily disable sections of CSS code within a stylesheet.     
@@ -37,7 +37,7 @@ A CSS comment is placed inside the HTML `<style>` element, and starts with `/*` 
 
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Ex:- `/* This is comment */`
 
-## CSS Colors
+# CSS Colors
 In CSS, colors are specified by using a predefined color name, or with a RGB, HEX, HSL, RGBA, HSLA value.
 
 **CSS Color Names**     
@@ -71,7 +71,7 @@ Same as color name "DodgerBlue", but 60% transparent:
 
 ![transperent](/Assets/Color_Values_But_Transparent_60_Percent.png)
 
-## RGB Value    
+### RGB Value    
 An RGB color value represents RED, GREEN, and BLUE light sources.    
 In CSS, a color can be specified as an RGB value, using this formula:   
 
@@ -80,7 +80,7 @@ In CSS, a color can be specified as an RGB value, using this formula:
 Each parameter (red, green, and blue) defines the intensity of the color between 0 and 255.     
 For example, rgb(255, 0, 0) is displayed as red, because red is set to its highest value (255) and the others are set to 0.
 
-## HEX Value
+### HEX Value       
 A hexadecimal color is specified with: #RRGGBB.    
 In CSS, a color can be specified using a hexadecimal value in the form:     
 
@@ -89,7 +89,7 @@ In CSS, a color can be specified using a hexadecimal value in the form:
 Where rr (red), gg (green) and bb (blue) are hexadecimal values between 00 and ff (same as decimal 0-255).      
 For example, #ff0000 is displayed as red, because red is set to its highest value (ff) and the others are set to the lowest value (00).
 
-## HSL Value
+### HSL Value
 HSL stands for hue, saturation, and lightness.  
 In CSS, a color can be specified using hue, saturation, and lightness (HSL) in the form: 
 
@@ -104,3 +104,4 @@ Hue is a degree on the color wheel (from 0 to 360):
 
 **Lightness** is also a percentage; 0% is black, 50% is neither light or dark, 100% is white.
 
+# CSS Backgrounds
