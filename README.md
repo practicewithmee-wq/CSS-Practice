@@ -105,3 +105,15 @@ Hue is a degree on the color wheel (from 0 to 360):
 **Lightness** is also a percentage; 0% is black, 50% is neither light or dark, 100% is white.
 
 # CSS Backgrounds
+The CSS background properties are used to add background effects for elements.  
+
+In these chapters, you will learn about the following CSS background properties:
+
+- background-color
+- background-image
+- background-repeat
+- background-attachment
+- background-position
+- background (shorthand property)
+
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Ex- `4_CSS_Background.html `
