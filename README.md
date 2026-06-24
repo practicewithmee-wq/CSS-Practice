@@ -117,3 +117,62 @@ In these chapters, you will learn about the following CSS background properties:
 - background (shorthand property)
 
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Ex- `4_CSS_Background.html `
+
+# CSS Borders
+The CSS border properties allow you to specify the style, width, and color of an element's border.
+
+### CSS Border Style  
+The border-style property specifies what kind of border to display.     
+
+The following values are allowed:
+- dotted - Defines a dotted border
+- dashed - Defines a dashed border
+- solid - Defines a solid border
+- double - Defines a double border
+- groove - Defines a 3D grooved border. The effect depends on the border-color value
+- ridge - Defines a 3D ridged border. The effect depends on the border-color value
+- inset - Defines a 3D inset border. The effect depends on the border-color value
+- outset - Defines a 3D outset border. The effect depends on the border-color value
+- none - Defines no border
+- hidden - Defines a hidden border
+
+### CSS Border Width
+The border-width property specifies the width of the four borders.
+
+The width can be set as a specific size (in px, pt, cm, em, etc) or by using one of the three pre-defined values: thin, medium, or thick:
+
+### CSS Border Color
+The border-color property is used to set the color of the four borders.     
+The color can be set by:
+- name - specify a color name, like "red"
+- HEX - specify a HEX value, like "#ff0000"
+ RGB - specify a RGB value, like "rgb(255,0,0)"
+- HSL - specify a HSL value, like "hsl(0, 100%, 50%)"
+- transparent
+
+### CSS Border - Individual Sides
+From the examples on the previous pages, you have seen that it is possible to specify a different border for each side.  
+
+In CSS, there are also properties for specifying each of the borders (top, right, bottom, and left):
+- border-top-style
+- border-right-style
+- border-bottom-style
+- border-left-style
+
+### CSS Border - Shorthand Property
+Like you saw in the previous page, there are many properties to consider when dealing with borders.
+
+To shorten the code, it is also possible to specify all the individual border properties in one property.
+
+The border property is a shorthand property for the following individual border properties:
+- border-width
+- border-style (required)
+- border-color
+
+### CSS Rounded Borders
+The border-radius property is used to add rounded borders to an element:
+
+![border radius](/Assets/border_radius.png)
+
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Ex- `5_CSS_Border.html`
+
