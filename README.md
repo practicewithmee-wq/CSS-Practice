@@ -176,3 +176,80 @@ The border-radius property is used to add rounded borders to an element:
 
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Ex- `5_CSS_Border.html`
 
+# CSS Margins And Padding
+### CSS Margins
+The CSS margin properties are used to create space around elements, outside of any defined borders.
+
+Margins define the distance between an element's border and the surrounding elements.
+
+With CSS, you have full control over the margins. CSS has properties for setting the margin for each individual side of an element (top, right, bottom, and left), and a shorthand property for setting all the margin properties in one declaration.
+
+### Margin - Individual Sides
+CSS has properties for specifying the margin for each side of an element:
+
+- **margin-top** - sets the top margin of an element
+- **margin-right** - sets the right margin of an element
+- **margin-bottom** - sets the bottom margin of an element
+- **margin-left** - sets the left margin of an element
+
+**All the margin properties can have the following values:**
+
+- **auto** - the browser calculates the margin
+- **length** - specifies a margin in px, pt, cm, etc.
+- **%** - specifies a margin in % of the width of the containing element
+- **inherit** - specifies that the margin should be inherited from the parent element
+
+### Margin - Shorthand Property
+To shorten the code, it is possible to specify all the margin properties in one declaration.    
+
+The margin property is a shorthand property for the following individual margin properties:
+
+If the margin property has four values:
+- margin: 25px 50px 75px 100px;
+    - top margin is 25px
+    - right margin is 50px
+    - bottom margin is 75px
+    - left margin is 100px
+
+### CSS Padding
+The CSS padding properties are used to generate space around an element's content, inside of any defined borders. 
+
+With CSS, you have full control over the padding. There are properties for setting the padding for each side of an element (top, right, bottom, and left), and a shorthand property for setting all the padding properties in one declaration.
+
+### Padding - Individual Sides
+CSS has properties for specifying the padding for each side of an element:
+
+- **padding-top** - sets the top padding of an element
+- **padding-right** - sets the right padding of an element
+- **padding-bottom** - sets the bottom padding of an element
+- **padding-left** - sets the left padding of an element
+
+**All the padding properties can have the following values:**
+
+- **length** - specifies a padding in px, pt, cm, etc.
+- **%** - specifies a padding in % of the width of the containing element
+- **inherit** - specifies that the padding should be inherited from the parent element 
+
+**Note**: Negative values are not allowed.
+
+### Padding - Shorthand Property
+To shorten the code, it is possible to specify all the padding properties in one declaration.
+
+The **padding** property is a shorthand property for the following individual padding properties:
+
+- padding-top
+- padding-right
+- padding-bottom
+- padding-left
+
+Here is how it works:
+
+If the padding property has four values:
+
+- **padding: 25px 50px 75px 100px;**
+- top padding is 25px
+- right padding is 50px
+- bottom padding is 75px
+- left padding is 100px
+
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Ex:- `6_CSS_Margin_And_Padding.html`
