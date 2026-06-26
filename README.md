@@ -253,3 +253,27 @@ If the padding property has four values:
 - left padding is 100px
 
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Ex:- `6_CSS_Margin_And_Padding.html`
+
+# CSS Height and Width      
+The CSS height and width properties are used to set the height and width of an element.
+
+### CSS Set height and width  
+The height and width properties are used to set the height and width of an element.
+
+The height and width do not include padding, borders, or margins. It sets the height and width of the area inside the padding, border, and margin of the element.
+
+### CSS height and width Values
+The height and width properties can have the following values:
+
+- **auto** - This is default. The browser calculates the height and width
+- **length** - Defines the height or width in px, cm, em, etc.
+- **%** - Defines the height or width in percent of the containing block
+- **initial** - Sets the height or width to its default value
+- **inherit** - The height or width will be inherited from its parent value
+
+### CSS Min/Max Height and Width
+The `min-width` and `max-width` properties are used to set the minimum and maximum width of an element.
+
+The `min-height` and `max-height` properties are used to set the minimum and maximum height of an element.
+
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Ex:- `7_height_And_Width.html`
