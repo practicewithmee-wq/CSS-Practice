@@ -299,3 +299,6 @@ Explanation of the different parts (from innermost part to outermost part):
 - **Margin** - Clears an area outside the border. The margin is transparent
 
 The box model allows us to add a border around elements, and to define space between elements.
+
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Ex:- `8_Box_Model.html`
+
