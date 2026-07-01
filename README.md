@@ -302,3 +302,149 @@ The box model allows us to add a border around elements, and to define space bet
 
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Ex:- `8_Box_Model.html`
 
+# CSS Text Color
+
+The color property is used to set the color of the text. The color is specified by:
+
+- a color name - like "red"
+- a HEX value - like "#ff0000"
+- an RGB value - like "rgb(255,0,0)"
+
+# CSS Text Background Color Property
+
+The background-color property is used to set the color of the background. The color is specified by:
+
+- a background-color name - like "blue"
+- a background-color HEX value - like "#ff0000"
+- an background-color RGB value - like "rgb(255,0,0)"
+
+# CSS Text Alignment
+
+The `text-align` property is used to set the horizontal alignment of a text.
+
+This property can have one of the following values:
+
+- **left** - Aligns the text to the left
+- **right** - Aligns the text to the right
+- **center** - Centers the text
+- **justify** - Stretches the lines so that each line has equal width
+
+# Text Align Last
+The `text-align-last` property specifies how to align the last line of a text.
+
+This property can have one of the following values:
+
+- **auto** - Default value. The last line is justified and aligned left
+- **left** - The last line is aligned to the left
+- **right** - The last line is aligned to the right
+- **center** - The last line is center-aligned
+- **justify** - The last line is justified as the rest of the lines
+- **start** - The last line is aligned at the start of the line
+- **end** - The last line is aligned at the end of the line
+
+# Vertical Alignment
+The vertical-align property sets the vertical alignment of an element.
+
+This property can have one of the following values:
+
+- **baseline** - Default value. The element is aligned with the baseline of the parent
+- **length/%** - Raises or lower an element by the specified length or percent
+- **sub** - The element is aligned with the subscript baseline of the parent
+- **super** - The element is aligned with the superscript baseline of the parent
+- **top** - The element is aligned with the top of the tallest element on the line
+- **text-top** - The element is aligned with the top of the parent element's font
+- **middle** - The element is placed in the middle of the parent element
+- **bottom** - The element is aligned with the lowest element on the line
+- **text-bottom** - The element is aligned with the bottom of the parent element's font
+
+# Text Direction
+
+The `direction` property specifies the text direction/writing direction within a block-level element.
+
+Tip: Use this property together with the `unicode-bidi` property to set or return whether the text should be overridden to support multiple languages in the same document.
+
+# CSS Text Decoration
+
+The CSS text-decoration-line property sets the type of decoration line added to the text.
+
+This property can have one or more of the following values:
+
+- **none** - Default value. Displays no decoration line
+- **underline** - The decoration line is displayed under the text
+- **overline** - The decoration line is displayed over the text
+- **line-through** - The decoration line is displayed through the text
+
+# Specify a Color for the Decoration Line
+
+The CSS `text-decoration-color` property is used to set the color of the decoration line.
+
+# CSS Text Decoration Styles
+
+The CSS text-decoration-style property sets the style of the decoration line.
+
+This property can have one of the following values:
+
+- **solid** - Default value. Single line
+- **double** - Double line
+- **dotted** - Dotted line
+- **dashed** - Dashed line
+- **wavy** - Wavy line
+
+# CSS Thickness for the Decoration Line
+
+The CSS `text-decoration-thickness` property is used to set the thickness of the decoration line.
+
+# The Shorthand Property
+The CSS text-decoration property is a shorthand property for:
+
+- text-decoration-line **(required)**
+- text-decoration-color **(optional)**
+- text-decoration-style **(optional)**
+- text-decoration-thickness **(optional)**
+
+# CSS Text Transformation
+
+The CSS text-transform property is used to control the capitalization of text in an element.
+
+It can be used to transform a text into uppercase or lowercase letters, or capitalize the first letter of each word, without changing the original content in HTML.
+
+This property can have one of the following values:
+
+- **none** - No transformation. Text renders as it is
+- **capitalize** - Transforms the first character of each word to uppercase
+- **uppercase** - Transforms all characters to uppercase
+- **lowercase** - Transforms all characters to lowercase
+
+# CSS Text Spacing
+CSS has several properties to control text spacing.
+
+In this chapter you will learn about the following properties:
+
+- **text-indent**
+- **letter-spacing**
+- **line-height**
+- **word-spacing**
+- **white-space**
+
+# CSS White Space
+The CSS white-space property specifies how white-space inside an element is handled.
+
+This property can have one of the following values:
+
+normal
+nowrap
+pre
+pre-line
+pre-wrap
+
+# CSS Text Shadow
+The text-shadow property adds shadow to text.
+
+In its simplest use, you only specify the horizontal and the vertical shadow.
+
+In addition, you can add a shadow color and blur effect.
+
+Horizontal and vertical shadow, with color and blur effect:     
+- **text-shadow**: 2px 2px 5px red;
+
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Ex:- `9_CSS_Text.html`
