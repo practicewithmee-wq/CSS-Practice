@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Text</title>
+</head>
+<style>
+    .color p {
+        color: green;
+        background-color: lightgray;
+    }
+
+    .align p {
+        text-align: center;
+        color : blue;
+        background-color: rgb(224, 230, 255);
+    }
+
+    .verticalAlign p {
+        height: 100px;
+        color: red;
+        background-color: rgb(233, 232, 232);
+    }
+
+    .c {
+        vertical-align: text-bottom;
+    }
+
+    .text-decoration p {
+        text-decoration: underline;
+        text-decoration-color: rgb(255, 0, 0);
+        text-decoration-style: dashed;
+        text-decoration-thickness: 5px;
+        
+        /* text-decoration-line: overline red dashed 5px; */
+
+        color: rgb(0, 195, 255);
+        background-color: rgb(255, 228, 228);
+    }
+
+    .letterSpace p {
+        color: rgb(255, 0, 0);
+        background-color: rgb(255, 228, 228);
+        letter-spacing: 10px;
+        line-height: 2;
+        word-spacing: 20px;
+        white-space: pre-line;
+    }
+
+    .textShadow p {
+        color: rgb(0, 0, 0);
+        text-shadow: 3px 3px 5px rgba(228, 14, 14, 0.5);
+        
+    }
+</style>
+<body>
+<div class="color">
+    <h1>CSS Text And Background color</h1>
+    <p>I am learning CSS text styling .</p>
+      
+</div>
+
+<div class="align">
+    <h2>CSS Text Alignment</h2>
+    <p>I am learning CSS text alignment.</p>
+    
+</div>
+
+<div class="verticalAlign">
+<h2>vertical-align: text-bottom:</h2>
+<p>Align the orange square to text-bottom: <img class="c" src="/Assets/TMG.png" width="9" height="9"></p> 
+</div>
+
+</head>
+<body>
+<div class="text-decoration">
+    <h1>CSS Text Decoration</h1>
+    <p>Text decoration is used to set or return the decoration of the text.</p>
+</div>
+
+<div class="letterSpace">
+    <h2>Letter Spacing</h2>
+    <p>This is some text with increased letter spacing. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est reprehenderit odio facere quo sunt? Facilis veniam et obcaecati. Nesciunt, ipsa sed voluptas omnis quam possimus reprehenderit saepe? Doloremque, ipsa quidem!</p>
+</div>
+
+<div class="textShadow">
+    <h2>Text Shadow</h2>
+    <p>This is some text with a shadow effect.</p>
+</div>
+
+
+</body>
+</html>
