@@ -448,3 +448,130 @@ Horizontal and vertical shadow, with color and blur effect:
 - **text-shadow**: 2px 2px 5px red;
 
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Ex:- `9_CSS_Text.html`
+
+# CSS Fonts
+
+### CSS font-family Property
+The CSS font-family property specifies the font for an element.
+
+### CSS Generic Font Families
+
+In CSS, there are five generic font families:
+
+- **Serif fonts** - have a small stroke at the edges of each letter. They create a sense of formality and elegance.
+- **Sans-serif fonts** - have clean lines (no small strokes attached). They create a modern and minimalistic look.
+- **Monospace fonts** - here all the letters have the same fixed width. They create a **mechanical look.
+- **Cursive fonts** - imitate human handwriting.
+- **Fantasy fonts** - are decorative/playful fonts.
+
+All the different font names belong to one of the generic font families.
+
+### Web Safe Fonts for HTML and CSS
+The following list are the best web safe fonts for HTML and CSS:
+
+- Arial (sans-serif)
+- Verdana (sans-serif)
+- Tahoma (sans-serif)
+- Trebuchet MS (sans-serif)
+- Times New Roman (serif)
+- Georgia (serif)
+- Garamond (serif)
+- Courier New (monospace)
+- Brush Script MT (cursive)
+
+### CSS Font Fallbacks
+
+**Commonly Used Font Fallbacks**    
+Below are some commonly used font fallbacks, organized by the 5 generic font families:
+
+- **Serif**
+- **Sans-serif**
+- **Monospace**
+- **Cursive**
+- **Fantasy**
+
+### CSS Font Style
+The CSS font-style property specifies the font style for a text..
+
+This property can have one of the following values:
+
+- **normal** - The text is shown normally
+- **italic** - The text is shown in italics
+- **oblique** - The text is "leaning" (oblique is very similar to italic)
+
+### CSS Font Weight
+The CSS font-weight property specifies how thick or thin characters in text should be displayed.
+
+This property can have one of the following values:
+
+- **normal** - This is default. Defines normal characters
+- **bold** - Defines thick characters
+- **bolder** - Defines thicker characters
+- **lighter** - Defines lighter characters
+- **100-900** - Defines from thin to thick characters. 400 is the same as normal, and 700 is the same as bold
+
+### CSS Font Variant
+The CSS font-variant property specifies whether or not a text should be displayed in a small-caps font.
+
+In a small-caps font, all lowercase letters are converted to uppercase letters. However, the converted uppercase letters appears in a smaller font size than the original uppercase letters in the text.
+
+### CSS Font Size
+The CSS font-size property is used to specify the size of the text/font.
+
+Being able to manage the text size is very important in web design.
+
+However, you should not use font size adjustments to make paragraphs look like headings, or headings look like paragraphs. Always use the proper HTML tags, like `<h1>` - `<h6>` for headings and `<p>` for paragraphs.
+
+The font-size can be set to an absolute size or to a relative size.
+
+**Absolute sizes**:
+
+- `px`: Pixels offers fixed and precise control over the font size.
+- `xx-small`, `x-small`, `small`, `medium`, `large`, `x-large`, `xx-large`. These keywords has a predefined set of sizes in browsers.  
+
+**Relative sizes**:
+
+- `em`: This unit is relative to the font size of the parent element.
+- `rem`: This unit is relative to the font size of the root HTML element.
+- `%`: This unit is relative to the font size of the parent element
+- `smaller` and `larger` : These units adjust the font size relative to the parent element.
+
+### The CSS Font Shorthand Property
+To shorten the code, it is possible to specify all the individual font properties in one declaration.
+
+The CSS `font` property is a shorthand property for:
+
+- **font-style**
+- **font-variant**
+- **font-weight**
+- **font-stretch**
+- **font-size**
+- **line-height**
+- **font-family**
+
+# Google Icons
+To use the Google icons, add the following line inside the <head> section of your HTML page:
+
+`<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">`
+
+Note: No downloading or installation is required!
+
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Ex:- `11_Google_Icons.html`
+
+# CSS Links
+
+### CSS Styling Links
+
+HTML links can be styled with many CSS properties, like `color`, `text-decoration`, `background-color`, `font-size`, `font-weight`, `font-family`, etc.).
+
+### Styling Links Depending on State    
+In addition, links can be styled differently depending on what state they are in.
+
+The four link states are:
+
+- :**link** - a normal, unvisited link
+- :**visited** - a link the user has visited
+- :**hover** - a link when the user mouses over it
+- :**active** - a link the moment it is clicked
+
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Ex:- `12_CSS_Links.html`
